@@ -52,7 +52,6 @@
    let RoofMesh = new THREE.Mesh(RoofGeometry,RoofMaterial);
    RoofMesh.rotation.x -= Math.PI / 1.97;
    RoofMesh.position.x = 0;
-   RoofMesh.position.z = -5;
    RoofMesh.position.y = 7.3;
    RoofMesh.receiveShadow = true;
    RoofMesh.castShadow = true;
