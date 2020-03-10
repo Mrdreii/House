@@ -42,7 +42,7 @@
     scene.add(CloudsBox);
 
    //ROOF
-   const RoofGeometry = new THREE.PlaneGeometry(10, 10, 8);
+   const RoofGeometry = new THREE.PlaneGeometry(10, 20, 8);
    let RoofTexture = new THREE.TextureLoader().load('assets/textures/floor.jpg');
    let RoofMaterial = new THREE.MeshPhongMaterial({map: RoofTexture, wireframe:USE_WIREFRAME, shininess: 100, opacity: 1.1, 
    transparent: true, 
